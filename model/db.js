@@ -1,6 +1,6 @@
 var mongoose = require( 'mongoose' );
 var Schema   = mongoose.Schema;
-mongoose.connect('mongodb://localhost:27017/todo');
+mongoose.connect('mongodb://todo:gdg@ds139360.mlab.com:39360/todo-gdg');
 var Todo = new Schema({
     user_id    : String,
     content    : String,
